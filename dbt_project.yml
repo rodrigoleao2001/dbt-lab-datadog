@@ -1,0 +1,11 @@
+name: 'lab_datadog'
+version: '1.0.0'
+
+profile: 'lab_datadog'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"

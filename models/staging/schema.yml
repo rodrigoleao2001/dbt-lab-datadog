@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Minimal staging model for Datadog integration lab"
+    columns:
+      - name: order_id
+        description: "Order identifier"
+        tests:
+          - not_null
